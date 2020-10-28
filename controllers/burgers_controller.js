@@ -14,3 +14,5 @@ app.post("/api/burgers", function(req, res) {
 app.put("/api/burgers/:id", function(req, res) {
 
 });
+
+module.exports = router; 
