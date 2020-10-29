@@ -21,9 +21,9 @@ $(function() {
     
         let newBurger;
     
-        if ($('textarea').val()) {
+        if ($('#burger-input').val()) {
           newBurger = {
-            burger_name: $("textarea").val().trim(),
+            burger_name: $("#burger-input").val().trim(),
             devoured: 0
           };
         }
